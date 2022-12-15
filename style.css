@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf7ff;
+    padding: 2em;
+    min-height: 100vh;
+}
+
+#left {
+
+    min-height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+
+#left p {
+
+    padding: 20px 10px;
+    color: #aab8db;
+}
+
+small {
+
+    padding: 20px 10px;
+    color: rgb(227, 21, 21);
+    display: none;
+}
+
+#right {
+
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.code {
+
+    width: 100%;
+    background-color: #00288a;
+    height: 100%;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    flex-direction: column;
+    gap: 3em;
+}
+
+
+
+select {
+
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    width: 300px;
+}
+
+.select {
+
+    background-color: #113a9f;
+    height: 3em;
+    text-align: center;
+    border-radius: 1em;
+
+}
+
+option {
+
+    -webkit-appearance: none;
+    background-color: #113a9f;
+    padding: 1em
+}
+
+.color_code {
+
+    width: 300px;
+    background-color: #113a9f;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 1em;
+    font-size: 0.9em;
+    height: 3em;
+}
+
+.color_code::placeholder {
+
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#input {
+
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 2em;
+    font-size: 2.5em;
+
+}
+
+h1 {
+
+    font-size: 3em;
+    color: #00288a;
+}
+
+.notes {
+
+    list-style-type: decimal;
+    padding: 20px;
+    color: #113a9f;
+}
+
+a {
+
+    background-color: #fff;
+    color: #113a9f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    border-radius: 1em;
+    cursor: pointer;
+    text-decoration: none;
+
+}
